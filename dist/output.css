@@ -45,7 +45,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: Inter, ...defaultTheme.fontFamily.sans;
+  font-family: Poppins, Inter, sans;
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -515,12 +515,42 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.m-4{
+  margin: 1rem;
+}
+
+.mx-0{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.mx-4{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mb-4{
+  margin-bottom: 1rem;
+}
+
 .mb-5{
   margin-bottom: 1.25rem;
 }
 
 .flex{
   display: flex;
+}
+
+.grid{
+  display: grid;
+}
+
+.h-80{
+  height: 20rem;
+}
+
+.w-\[331px\]{
+  width: 331px;
 }
 
 .w-screen{
@@ -531,21 +561,95 @@ video {
   cursor: pointer;
 }
 
+.items-end{
+  align-items: flex-end;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
 .justify-between{
   justify-content: space-between;
 }
 
-.p-4{
-  padding: 1rem;
+.rounded-md{
+  border-radius: 0.375rem;
+}
+
+.bg-slate-50{
+  --tw-bg-opacity: 1;
+  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
+}
+
+.bg-anniversary{
+  background-image: url('/resources/images/decor (5).jpg');
+}
+
+.bg-babyshower{
+  background-image: url('/resources/images/decor (9).jpg');
+}
+
+.bg-birthday{
+  background-image: url('/resources/images/decor (15).jpg');
+}
+
+.bg-cooporate{
+  background-image: url('/resources/images/decor (18).jpg');
+}
+
+.bg-graduations{
+  background-image: url('/resources/images/decor (17).jpg');
+}
+
+.bg-picnics{
+  background-image: url('/resources/images/decor (13).jpg');
+}
+
+.bg-proposal{
+  background-image: url('/resources/images/decor-propose.jpg');
+}
+
+.bg-weddings{
+  background-image: url('/resources/images/decor-wedding.jpg');
+}
+
+.bg-cover{
+  background-size: cover;
+}
+
+.bg-center{
+  background-position: center;
+}
+
+.bg-no-repeat{
+  background-repeat: no-repeat;
+}
+
+.px-0{
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .text-center{
   text-align: center;
 }
 
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
+.font-inter{
+  font-family: Inter, sans-serif;
+}
+
+.font-sans{
+  font-family: Poppins, Inter, sans;
+}
+
+.font-windsong{
+  font-family: WindSong, sans-serif;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-sm{
@@ -553,8 +657,28 @@ video {
   line-height: 1.25rem;
 }
 
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-bold{
   font-weight: 700;
+}
+
+.text-pink-500{
+  --tw-text-opacity: 1;
+  color: rgb(236 72 153 / var(--tw-text-opacity));
+}
+
+.drop-shadow-md{
+  --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .hover\:text-pink-500:hover{

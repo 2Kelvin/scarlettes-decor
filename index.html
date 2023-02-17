@@ -9,167 +9,208 @@
     <link rel="stylesheet" href="./dist/output.css">
 </head>
 
-<body class="w-screen">
-    <!-- all content wrapper -->
-    <section class="p-4">
-        <!-- Top Navbar -->
-        <ul class="flex justify-between font-bold text-sm mb-5">
-            <li class="active:text-pink-300 hover:text-pink-500 hover:underline cursor-pointer">Home</li>
-            <li class="active:text-pink-300 hover:text-pink-500 hover:underline cursor-pointer">Services</li>
-            <li class="active:text-pink-300 hover:text-pink-500 hover:underline cursor-pointer">Events</li>
-            <li class="active:text-pink-300 hover:text-pink-500 hover:underline cursor-pointer">Packages</li>
-        </ul>
+<body class="w-screen font-sans">
+    <!-- Top Navbar -->
+    <ul class="flex justify-between font-bold text-sm mb-5 font-inter m-4">
+        <li class="active:text-pink-300 hover:text-pink-500 hover:underline cursor-pointer">Home</li>
+        <li class="active:text-pink-300 hover:text-pink-500 hover:underline cursor-pointer">Services</li>
+        <li class="active:text-pink-300 hover:text-pink-500 hover:underline cursor-pointer">Events</li>
+        <li class="active:text-pink-300 hover:text-pink-500 hover:underline cursor-pointer">Packages</li>
+    </ul>
 
-        <section>
-            <!-- Scarlette's Glam Heading -->
-            <h1 class="text-center text-5xl mb-5">Scarlette's Glam</h1>
+    <section class="w-screen mx-0 px-0 mb-5">
+        <!-- Scarlette's Glam Heading -->
+        <h1 class="text-center text-4xl mb-5 font-windsong font-bold text-pink-500">Scarlette's Glam</h1>
 
-            <!-- Background Image -->
-            <img src="" alt="background">
-        </section>
+        <!-- Background Image -->
+        <img src="./resources/images/decor (16).jpg" alt="large background" class="bg-no-repeat bg-center bg-cover">
+    </section>
 
-        <!-- Our Packages -->
-        <section>
-            <h2>Our Packages</h2>
+    <!-- Our Packages -->
+    <section>
+        <h2 class="font-inter font-bold text-xl text-center mb-5">Our Packages</h2>
 
-            <!--Packages Cards  -->
-            <div>
-                <div>
-                    <div>
-                        <img src="" alt="Wedding icon">
-                        <p>Weddings</p>
-                    </div>
-                </div>
-
-                <div>
-                    <div>
-                        <img src="" alt="Picnic icon">
-                        <p>Picnics</p>
-                    </div>
-                </div>
-
-                <div>
-                    <div>
-                        <img src="" alt="Graduation icon">
-                        <p>Graduations</p>
-                    </div>
+        <!--Packages Cards  -->
+        <div>
+            <!-- Weddings  -->
+            <div
+                class="grid justify-center items-end mx-4 mb-4 h-80 w-[331px] rounded-md drop-shadow-md bg-slate-50 bg-weddings bg-center bg-no-repeat bg-cover">
+                <div class="flex mb-4">
+                    <img src="" alt="Wedding icon">
+                    <p>Weddings</p>
                 </div>
             </div>
-        </section>
+            <!-- Picnics -->
+            <div
+                class="grid justify-center items-end mx-4 mb-4 h-80 w-[331px] rounded-md drop-shadow-md bg-slate-50 bg-picnics bg-center bg-no-repeat bg-cover">
+                <div class="flex mb-4">
+                    <img src="" alt="Picnic icon">
+                    <p>Picnics</p>
+                </div>
+            </div>
+            <!-- Graduations -->
+            <div
+                class="grid justify-center items-end mx-4 mb-4 h-80 w-[331px] rounded-md drop-shadow-md bg-slate-50 bg-graduations bg-center bg-no-repeat bg-cover">
+                <div class="flex mb-4">
+                    <img src="" alt="Graduation icon">
+                    <p>Graduations</p>
+                </div>
+            </div>
+            <!-- Aniversaries -->
+            <div
+                class="grid justify-center items-end mx-4 mb-4 h-80 w-[331px] rounded-md drop-shadow-md bg-slate-50 bg-anniversary bg-center bg-no-repeat bg-cover">
+                <div class="flex mb-4">
+                    <img src="" alt="Aniversary icon">
+                    <p>Aniversaries</p>
+                </div>
+            </div>
+            <!-- Birthdays -->
+            <div
+                class="grid justify-center items-end mx-4 mb-4 h-80 w-[331px] rounded-md drop-shadow-md bg-slate-50 bg-birthday bg-center bg-no-repeat bg-cover">
+                <div class="flex mb-4">
+                    <img src="" alt="Birthday icon">
+                    <p>Birthdays</p>
+                </div>
+            </div>
+            <!-- Baby showers -->
+            <div
+                class="grid justify-center items-end mx-4 mb-4 h-80 w-[331px] rounded-md drop-shadow-md bg-slate-50 bg-babyshower bg-center bg-no-repeat bg-cover">
+                <div class="flex mb-4">
+                    <img src="" alt="Baby showers icon">
+                    <p>Baby showers</p>
+                </div>
+            </div>
+            <!-- Proposals -->
+            <div
+                class="grid justify-center items-end mx-4 mb-4 h-80 w-[331px] rounded-md drop-shadow-md bg-slate-50 bg-proposal bg-center bg-no-repeat bg-cover">
+                <div class="flex mb-4">
+                    <img src="" alt="Proposal icon">
+                    <p>Proposals</p>
+                </div>
+            </div>
+            <!-- Cooporates -->
+            <div
+                class="grid justify-center items-end mx-4 mb-4 h-80 w-[331px] rounded-md drop-shadow-md bg-slate-50 bg-cooporate bg-center bg-no-repeat bg-cover">
+                <div class="flex mb-4">
+                    <img src="" alt="Cooporate icon">
+                    <p>Cooporates</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <!-- Customer Feedback -->
-        <section>
-            <h2>Customer Feedback</h2>
+    <!-- Customer Feedback -->
+    <section>
+        <h2>Customer Feedback</h2>
 
-            <!-- Feedback Cards -->
+        <!-- Feedback Cards -->
+        <div>
             <div>
                 <div>
+                    <img src="" alt="whatsapp">
                     <div>
-                        <img src="" alt="whatsapp">
-                        <div>
-                            <h4>Susan Oma</h4>
-                            <p>2nd June 2022</p>
-                        </div>
+                        <h4>Susan Oma</h4>
+                        <p>2nd June 2022</p>
                     </div>
-                    <p>I was able to host a successful birthday for my little sister thanks to Scarlette's Glam. I will
-                        be
-                        needing thier servicees again!</p>
                 </div>
-
-                <div>
-                    <div>
-                        <img src="" alt="whatsapp">
-                        <div>
-                            <h4>Susan Oma</h4>
-                            <p>2nd June 2022</p>
-                        </div>
-                    </div>
-                    <p>I was able to host a successful birthday for my little sister thanks to Scarlette's Glam. I will
-                        be
-                        needing thier servicees again!</p>
-                </div>
-
-                <div>
-                    <div>
-                        <img src="" alt="whatsapp">
-                        <div>
-                            <h4>Susan Oma</h4>
-                            <p>2nd June 2022</p>
-                        </div>
-                    </div>
-                    <p>I was able to host a successful birthday for my little sister thanks to Scarlette's Glam. I will
-                        be
-                        needing thier servicees again!</p>
-                </div>
-
-                <div>
-                    <div>
-                        <img src="" alt="whatsapp">
-                        <div>
-                            <h4>Susan Oma</h4>
-                            <p>2nd June 2022</p>
-                        </div>
-                    </div>
-                    <p>I was able to host a successful birthday for my little sister thanks to Scarlette's Glam. I will
-                        be
-                        needing thier servicees again!</p>
-                </div>
-
-                <div>
-                    <div>
-                        <img src="" alt="whatsapp">
-                        <div>
-                            <h4>Susan Oma</h4>
-                            <p>2nd June 2022</p>
-                        </div>
-                    </div>
-                    <p>I was able to host a successful birthday for my little sister thanks to Scarlette's Glam. I will
-                        be
-                        needing thier servicees again!</p>
-                </div>
-
-                <div>
-                    <div>
-                        <img src="" alt="whatsapp">
-                        <div>
-                            <h4>Susan Oma</h4>
-                            <p>2nd June 2022</p>
-                        </div>
-                    </div>
-                    <p>I was able to host a successful birthday for my little sister thanks to Scarlette's Glam. I will
-                        be
-                        needing thier servicees again!</p>
-                </div>
-
+                <p>I was able to host a successful birthday for my little sister thanks to Scarlette's Glam. I will
+                    be
+                    needing thier servicees again!</p>
             </div>
-        </section>
 
-        <!-- Contact Form -->
-        <section>
             <div>
                 <div>
-                    <h2>Contact</h2>
-                    <img src="" alt="message">
-                    <h1>Leave us a Message</h1>
-                    <p>
-                        For more information or enquiry about services and pricing, please feel free to get in touch
-                        with
-                        us.
-                    </p>
-                    <!-- social icons -->
-                    <img src="" alt="facebook">
-                    <img src="" alt="instagram">
-                    <img src="" alt="tiktok">
+                    <img src="" alt="whatsapp">
+                    <div>
+                        <h4>Susan Oma</h4>
+                        <p>2nd June 2022</p>
+                    </div>
                 </div>
-
-                <form action="">
-                    <input type="text" name="" id="" placeholder="Your name">
-                    <input type="text" name="" id="" placeholder="Your email">
-                    <input type="text" name="" id="" placeholder="Enquiry for...">
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                </form>
+                <p>I was able to host a successful birthday for my little sister thanks to Scarlette's Glam. I will
+                    be
+                    needing thier servicees again!</p>
             </div>
-        </section>
+
+            <div>
+                <div>
+                    <img src="" alt="whatsapp">
+                    <div>
+                        <h4>Susan Oma</h4>
+                        <p>2nd June 2022</p>
+                    </div>
+                </div>
+                <p>I was able to host a successful birthday for my little sister thanks to Scarlette's Glam. I will
+                    be
+                    needing thier servicees again!</p>
+            </div>
+
+            <div>
+                <div>
+                    <img src="" alt="whatsapp">
+                    <div>
+                        <h4>Susan Oma</h4>
+                        <p>2nd June 2022</p>
+                    </div>
+                </div>
+                <p>I was able to host a successful birthday for my little sister thanks to Scarlette's Glam. I will
+                    be
+                    needing thier servicees again!</p>
+            </div>
+
+            <div>
+                <div>
+                    <img src="" alt="whatsapp">
+                    <div>
+                        <h4>Susan Oma</h4>
+                        <p>2nd June 2022</p>
+                    </div>
+                </div>
+                <p>I was able to host a successful birthday for my little sister thanks to Scarlette's Glam. I will
+                    be
+                    needing thier servicees again!</p>
+            </div>
+
+            <div>
+                <div>
+                    <img src="" alt="whatsapp">
+                    <div>
+                        <h4>Susan Oma</h4>
+                        <p>2nd June 2022</p>
+                    </div>
+                </div>
+                <p>I was able to host a successful birthday for my little sister thanks to Scarlette's Glam. I will
+                    be
+                    needing thier servicees again!</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section>
+        <div>
+            <div>
+                <h2>Contact</h2>
+                <img src="" alt="message">
+                <h1>Leave us a Message</h1>
+                <p>
+                    For more information or enquiry about services and pricing, please feel free to get in touch
+                    with
+                    us.
+                </p>
+                <!-- social icons -->
+                <img src="" alt="facebook">
+                <img src="" alt="instagram">
+                <img src="" alt="tiktok">
+            </div>
+
+            <form action="">
+                <input type="text" name="" id="" placeholder="Your name">
+                <input type="text" name="" id="" placeholder="Your email">
+                <input type="text" name="" id="" placeholder="Enquiry for...">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </form>
+        </div>
     </section>
 </body>
 
