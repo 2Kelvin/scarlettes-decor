@@ -113,88 +113,74 @@
         <h2 class="font-inter font-bold text-xl text-center mb-5">Customer Feedback</h2>
 
         <!-- Feedback Cards -->
-        <div class="p-4">
-            <div class="p-3 bg-slate-50 rounded-md drop-shadow-md w-[331px] mb-6 h-36">
-                <div class="flex mb-3 items-center">
+        <div class="w-screen overflow-x-auto flex overflow-hidden scroll-smooth p-4">
+            <div class="p-3 bg-slate-50 rounded-md drop-shadow-md min-w-[250px] mr-3 min-h-48">
+                <div class="flex mb-5 items-center">
                     <img src="./resources/icons/whatsapp.png" alt="whatsapp" class="h-7 w-7 mr-4">
                     <div>
                         <h4 class="font-medium text-md">Susan Oma</h4>
-                        <p class="font-light text-xs">2nd June 2022</p>
+                        <p class="font-light text-xs text-[10px]">2nd June 2022</p>
                     </div>
                 </div>
                 <p>I was able to host a successful birthday for my little sister thanks to
                     Scarlette's Glam. I will
                     be
-                    needing thier servicees again!</p>
+                    needing their servicees again!</p>
             </div>
 
-            <div class="p-3 bg-slate-50 rounded-md drop-shadow-md w-[331px] mb-6 h-36">
-                <div class="flex mb-3 items-center">
+            <div class="p-3 bg-slate-50 rounded-md drop-shadow-md min-w-[250px] mr-3 min-h-48">
+                <div class="flex mb-5 items-center">
                     <img src="./resources/icons/whatsapp.png" alt="whatsapp" class="h-7 w-7 mr-4">
                     <div>
                         <h4 class="font-medium text-md">Susan Oma</h4>
-                        <p class="font-light text-xs">2nd June 2022</p>
+                        <p class="font-light text-xs text-[10px]">2nd June 2022</p>
                     </div>
                 </div>
                 <p>I was able to host a successful birthday for my little sister thanks to
                     Scarlette's Glam. I will
                     be
-                    needing thier servicees again!</p>
+                    needing their servicees again!</p>
             </div>
 
-            <div class="p-3 bg-slate-50 rounded-md drop-shadow-md w-[331px] mb-6 h-36">
-                <div class="flex mb-3 items-center">
-                    <img src="./resources/icons/whatsapp.png" alt="whatsapp" class="h-7 w-7 mr-4">
-                    <div>
-                        <h4 class="font-medium text-md">Susan Oma</h4>
-                        <p class="font-light text-xs">2nd June 2022</p>
-                    </div>
-                </div>
-                <p>I was able to host a successful birthday for my little sister thanks to
-                    Scarlette's Glam. I will
-                    be
-                    needing thier servicees again!</p>
-            </div>
 
-            <div class="p-3 bg-slate-50 rounded-md drop-shadow-md w-[331px] mb-6 h-36">
-                <div class="flex mb-3 items-center">
-                    <img src="./resources/icons/whatsapp.png" alt="whatsapp" class="h-7 w-7 mr-4">
-                    <div>
-                        <h4 class="font-medium text-md">Susan Oma</h4>
-                        <p class="font-light text-xs">2nd June 2022</p>
-                    </div>
-                </div>
-                <p>I was able to host a successful birthday for my little sister thanks to
-                    Scarlette's Glam. I will
-                    be
-                    needing thier servicees again!</p>
-            </div>
         </div>
     </section>
 
     <!-- Contact Form -->
-    <section>
-        <div>
+    <section class="p-4">
+        <h2 class="font-inter font-bold text-xl text-center mb-5">Contact</h2>
+        <div class="drop-shadow-md bg-slate-50 rounded-md text-center p-3">
             <div>
-                <h2>Contact</h2>
-                <img src="" alt="message">
-                <h1>Leave us a Message</h1>
+                <h1 class="font-medium text-lg mb-3">Leave us a Message</h1>
                 <p>
-                    For more information or enquiry about services and pricing, please feel free to get in touch
-                    with
-                    us.
+                    For more information or enquiry about our services and pricing, please feel free to get in touch
+                    with us on
                 </p>
                 <!-- social icons -->
-                <img src="" alt="facebook">
-                <img src="" alt="instagram">
-                <img src="" alt="tiktok">
+                <div class="flex justify-center my-6">
+                    <img src="./resources/icons/facebook.png" alt="facebook" class="h-9 w-9">
+                    <img src="./resources/icons/instagram.png" alt="instagram" class="h-9 w-9 mx-5">
+                    <img src="./resources/icons/tiktok.png" alt="tiktok" class="h-9 w-9">
+                </div>
             </div>
 
             <form action="">
-                <input type="text" name="" id="" placeholder="Your name">
-                <input type="text" name="" id="" placeholder="Your email">
-                <input type="text" name="" id="" placeholder="Enquiry for...">
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <label for="inputName">
+                    <input type="text" name="" id="" placeholder="Your name"
+                        class="border border-slate-500 rounded-lg p-1 font-sans w-2/3 text-sm">
+                </label>
+                <label for="inputName">
+                    <input type="email" name="" id="" placeholder="Your email"
+                        class="border border-slate-500 rounded-lg p-1 font-sans w-2/3 text-sm my-4">
+                </label>
+                <label for="inputName">
+                    <input type="text" name="" id="" placeholder="Enquiry for..."
+                        class="border border-slate-500 rounded-lg p-1 font-sans w-2/3 text-sm">
+                </label>
+                <label for="textAreaMessage">
+                    <textarea name="" id="" cols="20" rows="10" placeholder="Your message here..."
+                        class="rounded-md my-5 border border-slate-600 font-sans p-2"></textarea>
+                </label>
             </form>
         </div>
     </section>
